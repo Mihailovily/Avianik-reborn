@@ -1,0 +1,8 @@
+@font-face {
+	font-family: Rocket;
+	src: url('../font/rocket.ttf');
+}
+
+a, h1, p, ul, li{
+    font-family: 'Rocket';
+}
