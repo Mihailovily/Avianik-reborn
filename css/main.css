@@ -6,3 +6,78 @@
 a, h1, p, ul, li{
     font-family: 'Rocket';
 }
+
+html, body{
+    background-color: #DEDEDE;
+}
+.container{
+    width: auto;
+    margin-left: 3em;
+    margin-right: 4em;
+}
+
+.normal{
+    width: 100%;
+}
+.zagolovok{
+    margin-bottom: 1em;
+
+}
+
+nav{
+    padding-bottom: 1em;
+    padding-top: 1em;
+    position: fixed;
+    width: 100%;
+    background:#DEDEDE;
+    z-index: 100;
+    
+}
+
+.otstup{
+    margin-top: 3em;
+}
+
+.blue{
+    color: #26519F;
+}
+
+.noOtstup{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.black{
+    color: black;
+}
+
+.buttonblue, .buttonblue:hover, .buttonblue:active, .buttonblue:focus{
+    color: #fff !important;
+    background-color: #26519F !important;
+    border-color: #26519F !important;
+}
+
+.buttongray, .buttongray:hover, .buttongray:active, .buttongray:focus{
+    color: #333 !important;
+    background-color: #DEDEDE !important;
+    border-color: #DEDEDE !important;
+}
+
+.btnbluetext, .btnbluetext:hover{
+    color: white;
+    text-decoration: none;
+}
+
+.btnwhitetext, .btnwhitetext:hover{
+    color:black;
+    text-decoration: none;
+}
+
+.btn:focus,
+.btn:active {
+  box-shadow: none !important;
+}
+
+.btn-default:active:hover{
+    
+}
