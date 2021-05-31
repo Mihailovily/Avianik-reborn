@@ -76,6 +76,7 @@ nav{
 .btn:focus,
 .btn:active {
   box-shadow: none !important;
+  border-radius: 4px;
 }
 
 .btn-default:active:hover{
