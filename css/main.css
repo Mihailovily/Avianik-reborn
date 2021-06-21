@@ -2,14 +2,21 @@
     font-family: Rocket;
     src: url('../font/rocket.ttf');
 }
+
 @font-face {
     font-family: Stapel;
-    src: url('../font/Stapel_Medium.otf');
+    src: url('../font/SFProDisplay-Regular.ttf');
 }
-.rocket, button, .btn {
+
+.rocket,
+button,
+.btn {
     font-family: 'Rocket';
 }
-.stapel, a, p{
+
+.stapel,
+a,
+p {
     font-family: 'Stapel';
 }
 
@@ -26,7 +33,24 @@
         display: none;
     }
 }
-.nav-item{
+
+.nav-item {
     margin-left: 2.5em;
 }
-.btn{border-radius: 5px;}
+
+.btn {
+    border-radius: 5px;
+}
+
+.oneline {
+    display: table;
+}
+
+.onelinen {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.oneline img {
+    margin-right: 1em;
+}
