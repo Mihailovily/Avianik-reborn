@@ -11,11 +11,13 @@
     <link href="css/carousel.css" rel="stylesheet">
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
 </head>
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-md navbar-light fixed-top bg-white">
+        <nav class="navbar navbar-expand-md navbar-light fixed-top bg-white desktop">
             <a class="navbar-brand rocket" href="#" style="color: #26519F; margin-left: 5%;">авианик.</a>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav mr-auto">
@@ -34,6 +36,20 @@
                 </form>
             </div>
         </nav>
+        <nav class="mobile mobnav">
+            <div class="mobile container">
+                <div class="col-sm-4">
+                    <a id="burger"><img class="otstup" id="burger" width="48px" height="48px" src="img/logo.jpg"><img class="pad otstup" id="burger" width="24px" height="24px" src="img/icons/menu.svg"></a>
+                </div>
+                <div class="menu row ctr" style="display:none">
+                    <div class="otstuptwo col-sm-12"><a href="index.html">проекты</a></div>
+                    <div class="otstuptwo col-sm-12"><a href="career.html">карьера</a></div>
+                    <div class="otstuptwo col-sm-12"><a href="about.html">обо мне</a></div>
+                    <div class="otstuptwo col-sm-12"><a href="contact.html">связаться</a></div>
+                </div>
+            </div>
+        </nav>
+
     </header>
 
     <main role="main">
@@ -60,7 +76,6 @@
                         <p><a class="btn btn-secondary" href="#" role="button">Узнать подробнее</a></p>
                     </div>
                 </div>
-                <!-- /.col-lg-4 -->
                 <div class="col-lg-6 oneline">
                     <img class="" src="img/trainIso.png" alt="Generic placeholder image" width="240">
                     <div class="onelinen">
@@ -69,7 +84,6 @@
                         <p><a class="btn btn-secondary" href="#" role="button">Узнать подробнее</a></p>
                     </div>
                 </div>
-                <!-- /.col-lg-4 -->
                 <div class="col-lg-6 oneline" style="margin-top: 3em;">
                     <img class="" src="img/busIso.png" alt="Generic placeholder image" width="240">
                     <div class="onelinen">
@@ -79,7 +93,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6 oneline" style="margin-top: 3em;">
-                    <img class="" src="img/cityIso.png" alt="Generic placeholder image" width="240">
+                    <img class="" src="img/beachIso.png" alt="Generic placeholder image" width="240">
                     <div class="onelinen">
                         <h2 class="rocket">Туры</h2>
                         <p>Накопленный нами за годы работы опыт, позволяет подобрать для Вас туристический продукт любой сложности</p>
@@ -93,13 +107,13 @@
                     <img src="img/8.png" alt="Generic placeholder image" width="240" height="195">
                     <h2 class='rocket'>Онлайн-регистрация - статус билета</h2>
                     <p>В данном разделе Вы можете проверить статуса вашего билета и пройти онлайн регистрацию на рейсы основных авиакомпаний.</p>
-                    <p><button type="button" class="btn btn-link">Link</button></p>
+                    <p><button type="button" class="btn btn-link">Проверить</button></p>
                 </div>
                 <div class="col-lg-6" style="text-align: center;">
                     <img src="img/9.png" alt="Generic placeholder image" width="240" height="195">
                     <h2 class='rocket'>Отзывы о нас</h2>
                     <p>В данном разделе Вы можете ознакомиться с отзывами о нашей работе либо оставить свой отзыв</p>
-                    <p><button type="button" class="btn btn-link">Link</button></p>
+                    <p><button type="button" class="btn btn-link">Читать</button></p>
                 </div>
             </div>
             <hr class="featurette-divider">
@@ -187,12 +201,7 @@
             <p>&copy; designed by mihailovily</p>
         </footer>
     </main>
-    <script src="js/jquery-slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script>
-        window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery-slim.min.js"><\/script>')
-    </script>
-    <script src="js/popper.js"></script>
-    <script src="js/bootstrap.js"></script>
+
 </body>
 
 </html>
