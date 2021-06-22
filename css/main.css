@@ -90,3 +90,19 @@ p {
 .menu {
     background: #dedede;
 }
+
+.btn:focus,
+.btn:active {
+    outline: none !important;
+    box-shadow: none;
+}
+
+.zero {
+    margin-top: 2em !important
+}
+
+footer a,
+footer a:hover,
+footer a:active {
+    color: #212529;
+}

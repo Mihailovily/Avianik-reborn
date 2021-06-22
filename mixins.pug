@@ -1,13 +1,15 @@
 mixin razdelitel
     hr.featurette-divider
 mixin big-block-right(zagolovok, textt, link1, knopka1, link2, knopka2, imgadr, jakor)
+    div.col-md-5.mobile
+        img.featurette-image.img-fluid.mx-auto(src=imgadr style="margin-top: 1em;")
     div.col-md-7(name=jakor)
         h2.featurette-heading.rocket= zagolovok
         p.lead= textt
         a.btn.btn-info(href=link1 role="button")= knopka1
         a(href=link2)
             button.btn.btn-link(type="button")= knopka2
-    div.col-md-5
+    div.col-md-5.desktop
         img.featurette-image.img-fluid.mx-auto(src=imgadr style="margin-top: 1em;")
 mixin big-block-left(zagolovok, textt, link1, knopka1, link2, knopka2, imgadr, jakor)
     div.col-md-5(name=jakor)
