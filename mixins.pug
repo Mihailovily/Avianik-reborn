@@ -1,0 +1,35 @@
+mixin razdelitel
+    hr.featurette-divider
+mixin big-block-right(zagolovok, textt, link1, knopka1, link2, knopka2, imgadr, jakor)
+    div.col-md-7(name=jakor)
+        h2.featurette-heading.rocket= zagolovok
+        p.lead= textt
+        a.btn.btn-info(href=link1 role="button")= knopka1
+        a(href=link2)
+            button.btn.btn-link(type="button")= knopka2
+    div.col-md-5
+        img.featurette-image.img-fluid.mx-auto(src=imgadr style="margin-top: 1em;")
+mixin big-block-left(zagolovok, textt, link1, knopka1, link2, knopka2, imgadr, jakor)
+    div.col-md-5(name=jakor)
+        img.featurette-image.img-fluid.mx-auto(src=imgadr style="margin-top: 1em;")
+    div.col-md-7
+        h2.featurette-heading.rocket= zagolovok
+        p.lead= textt
+        a.btn.btn-info(href=link1 role="button")= knopka1
+        a(href=link2)
+            button.btn.btn-link(type="button")= knopka2
+mixin uslugi-block(ssstyle, imgsrc, widthh, jakor, zagolovok, litltext, linkk, knopka)
+    div.col-lg-6.oneline(style=ssstyle)
+        img(src=imgsrc width=widthh)
+        div.onelinen
+            h2.rocket(name=jakor)= zagolovok
+            p= litltext
+            p
+                a.btn.btn-secondary(href=linkk role="button")= knopka
+mixin registration(sourceimg, wid, hei, zagolovok, litltext, linkk, knopka)
+    div.col-lg-6(style="text-align: center;")
+        img(src=sourceimg width=wid height=hei)
+        h2.rocket= zagolovok
+        p= litltext
+        a(href=linkk)
+            button.btn.btn-link(type="button")= knopka

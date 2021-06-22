@@ -1,0 +1,43 @@
+extends base.pug
+block content
+    div.container.marketing
+        div.row.featurette
+            div.col-md-7
+                h2.featurette-heading.rocket Услуги
+            div.col-md-7#aviabilety(name="aviabilety")
+                h2.featurette-heading.rocket Авиабилеты
+                p.lead Основное направление деятельности ООО «Авианик» - продажа авиабилетов. Уже более 25 лет мы помогаем жителям Ярославля приобрести авиабилеты на выгодных условиях. В настоящее время ООО «Авианик» является аккредитованным агентством АО «Транспортная Клиринговая Палата»
+                a.btn.btn-info(href="" role="button") Сервисные сборы
+            div.col-md-5
+                img.featurette-image.img-fluid.mx-auto(src="img/planeIso.png" style="margin-top: 1em;")
+        +razdelitel
+        div.row.featurette
+            div.col-md-5#rzd(name="rzd")
+                img.featurette-image.img-fluid.mx-auto(src="img/trainIso.png" style="margin-top: 1em;")
+            div.col-md-7
+                h2.featurette-heading.rocket ЖД билеты
+                p.lead В кассах ООО «Авианик» вы можете приобрести железнодорожные билеты на все направления. В отличии от железнодорожного вокзала, в наших кассах практически не бывает очередей. При путешествии на поезде наши специалисты подберут для Вас оптимальные места в вагоне, с учётом Ваших требований по комфорту и цене. 
+        +razdelitel
+        div.row.featurette
+            div.col-md-7#transfer(name="transfer")
+                h2.featurette-heading.rocket Трансферы
+                p.lead Одним из самых удобных способов добраться до аэропортов Московского авиаузла является прямая автобусная (автомобильная) перевозка – трансфер. Вы можете выбрать удобный и приемлемый для Вас по цене вид трансфера. Групповой трансфер - перевозка в/из аэропорт города Москвы, совершаемая согласно утвержденному расписанию. Трансфер "от дома" - перевозчик самостоятельно подбирает компанию для поездки, подача автомобиля осуществляется по адресу, указанному при бронировании. Индивидуальный трансфер – перевозка на автомобиле либо микроавтобусе от адреса 
+                a.btn.btn-info(href="" role="button") Расписание трансферов
+                a(href="")
+                    button.btn.btn-link(type="button") Стоимость трансферов
+            div.col-md-5
+                img.featurette-image.img-fluid.mx-auto(src="img/busIso.png" style="margin-top: 1em;")
+        +razdelitel
+        div.row.featurette
+            div.col-md-5#tours(name="tours")
+                img.featurette-image.img-fluid.mx-auto(src="img/beachIso.png" style="margin-top: 1em;")
+            div.col-md-7
+                h2.featurette-heading.rocket Туры
+                p.lead В настоящее время, наше туристическое агентство специализируется на продаже туров корпоративным клиентам. Однако, накопленный нами за годы работы опыт, позволяет нам подобрать для Вас туристический продукт любой сложности. Для нас не имеет значения путешествуете Вы один или большой компанией, в любом случае, при подборе тура, мы максимально учтём все ваши пожелания и предложим лучший тур по оптимальной цене. Вы можете связаться с сотрудниками нашего туристического агентства по телефону или по электронной почте.
+                a.btn.btn-info(href="" role="button") info@avia76.ru
+                a(href="")
+                    button.btn.btn-link(type="button") +7 (4852) 72-86-10
+        +razdelitel
+        
+        
+
