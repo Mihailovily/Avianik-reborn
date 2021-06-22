@@ -59,6 +59,10 @@ p {
     main {
         padding-top: 48px;
     }
+    .umenschit {
+        margin-bottom: 0px;
+        margin-top: 40px;
+    }
 }
 
 .nav-item {
