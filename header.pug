@@ -1,8 +1,10 @@
 nav.navbar.navbar-expand-md.navbar-light.fixed-top.bg-white.desktop
-    a.navbar-brand.rocket(href="https://avia76.ru" style="color: #26519F; margin-left: 5%;") авианик.
+    //a.navbar-brand.rocket(href="index.html" style="color: #26519F; margin-left: 5%;") авианик
+    a(href="index.html")
+        img.navbar-brand.rocket(href="index.html" src="img/logo.svg" style="margin-left: 5%; height: 1.5em;")
     div.collapse.navbar-collapse#navbarCollapse
         ul.navbar-nav.mr-auto
-            li.nav-item
+            //li.nav-item
                 a.nav-link(href="index.html") Домашняя
             li.nav-item
                 a.nav-link(href="uslugi.html") Услуги
@@ -13,10 +15,12 @@ nav.navbar.navbar-expand-md.navbar-light.fixed-top.bg-white.desktop
 nav.mobile.mobnav
     div.mobile.container
         div.col-sm-4(style="text-align: center;")
-            a.navbar-brand.rocket.otstup#burger(style="color: #26519F; margin-left: 5%;") авианик.
-                img.pad.otstup#burger(width="24px" height="24px" src="img/icons/menu.svg")
+            img.pad.otstup#burger(width="24px" height="24px" src="img/icons/menu.svg")
+            //a.navbar-brand.rocket.otstup(href="index.html" style="color: #26519F; margin-left: 5%;") авианик
+            a(href="index.html")
+                img.navbar-brand.rocket.otstup(href="index.html" src="img/logo.svg" style="margin-left: 5%; height: 1.5em; margin-top: 0.37em")
             div.menu.row.ctr.rocket(style="display:none")
-                div.otstuptwo.col-sm-12
+                //div.otstuptwo.col-sm-12
                     a.rocket(href="index.html") Домашняя
                 div.otstuptwo.col-sm-12
                     a.rocket(href="uslugi.html") Услуги
