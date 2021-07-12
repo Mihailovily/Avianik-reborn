@@ -110,3 +110,11 @@ footer a:hover,
 footer a:active {
     color: #212529;
 }
+
+.faq{
+    margin-bottom: 1em;
+}
+
+.answer-faq{
+    display: none;
+}

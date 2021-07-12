@@ -7,4 +7,16 @@ $(document).ready(function() {
         $('html,body').stop().animate({ scrollTop: $(this.hash).offset().top - fixed_offset }, 1000);
         e.preventDefault();
     });
+    $("#burger").click(function() {
+        $(".menu").toggle(1000);
+    });
+    $("#1").click(function() {
+        $("#11").toggle(1000);
+    });
+    $("#2").click(function() {
+        $("#22").toggle(1000);
+    });
+    $("#3").click(function() {
+        $("#33").toggle(1000);
+    });
 });

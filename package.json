@@ -1,0 +1,7 @@
+{
+    "name": "avanik",
+    "version": "3.1.0",
+    "scripts": {
+       "build": "pug index.pug && pug about.pug && pug uslugi.pug && pug corp.pug && pug contact.pug"
+    }
+}

@@ -1,6 +1,6 @@
 nav.navbar.navbar-expand-md.navbar-light.fixed-top.bg-white.desktop
     //a.navbar-brand.rocket(href="index.html" style="color: #26519F; margin-left: 5%;") авианик
-    a(href="index.html")
+    a(href="index.html" style="margin-left: 5%; height: 1.5em;")
         img.navbar-brand.rocket(href="index.html" src="img/logo.svg" style="margin-left: 5%; height: 1.5em;")
     div.collapse.navbar-collapse#navbarCollapse
         ul.navbar-nav.mr-auto
@@ -10,14 +10,16 @@ nav.navbar.navbar-expand-md.navbar-light.fixed-top.bg-white.desktop
                 a.nav-link(href="uslugi.html") Услуги
             li.nav-item
                 a.nav-link(href="about.html") О нас
+            li.nav-item
+                a.nav-link(href="corp.html") Корпоративным клиентам
         form.form-inline.mt-2.mt-md-0(style="margin-right: 3%;")
-            a.btn.btn-info(href="about.html#contact" role="button") Связаться с нами
+            a.btn.btn-info(href="contact.html" role="button") Связаться с нами
 nav.mobile.mobnav
     div.mobile.container
         div.col-sm-4(style="text-align: center;")
             img.pad.otstup#burger(width="24px" height="24px" src="img/icons/menu.svg")
             //a.navbar-brand.rocket.otstup(href="index.html" style="color: #26519F; margin-left: 5%;") авианик
-            a(href="index.html")
+            a(href="index.html" style="margin-left: 5%; height: 1.5em; margin-top: 0.37em")
                 img.navbar-brand.rocket.otstup(href="index.html" src="img/logo.svg" style="margin-left: 5%; height: 1.5em; margin-top: 0.37em")
             div.menu.row.ctr.rocket(style="display:none")
                 //div.otstuptwo.col-sm-12
@@ -27,4 +29,6 @@ nav.mobile.mobnav
                 div.otstuptwo.col-sm-12
                     a.rocket(href="about.html") О нас
                 div.otstuptwo.col-sm-12
-                    a.rocket(href="about.html#contact") Связаться
+                    a.rocket(href="corp.html") Корпоративным клиентам
+                div.otstuptwo.col-sm-12
+                    a.rocket(href="contact.html") Связаться
