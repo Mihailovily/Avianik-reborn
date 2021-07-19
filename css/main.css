@@ -118,3 +118,6 @@ footer a:active {
 .answer-faq{
     display: none;
 }
+p{
+    text-align: justify;
+}
