@@ -4443,7 +4443,8 @@ input[type=submit].btn-block {
 
 .nav-link {
     display: block;
-    padding: .5rem 1rem
+    padding-bottom: 0px;
+padding-top: 0.9rem;
 }
 
 .nav-link:focus,

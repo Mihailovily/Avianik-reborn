@@ -35,3 +35,7 @@ mixin registration(sourceimg, wid, hei, zagolovok, litltext, linkk, knopka)
         p= litltext
         a(href=linkk)
             button.btn.btn-link(type="button")= knopka
+mixin regonsite(sourceimg, target)
+    div.col-lg-2(style="text-align: center;")
+        a(href=target)
+            img(src=sourceimg, width=240, style='border-radius: 10px;') 

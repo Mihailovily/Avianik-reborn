@@ -16,4 +16,5 @@ $(document).ready(function() {
     $("#3").click(function() {
         $("#33").toggle(1000);
     });
+    $('.single-item').slick();
 });

@@ -1,0 +1,30 @@
+extends base.pug
+block content
+    div.container.marketing
+        div.row.featurette
+            div.col-md-12
+                h2.featurette-heading.rocket Отзывы
+            div.col-md-5.mobile
+                img.featurette-image.img-fluid.mx-auto(src="img/planeIso.png" style="margin-top: 1em;")
+            div.col-md-7#aviabilety(name="aviabilety")
+                h2.featurette-heading.rocket.zero С сайта 'Отзовик'
+                p.lead Агентство воздушных и железнодорожных сообщений "Авианик" в городе Ярославль рекомендую. Побольше путешествуйте, отдыхайте и познавайте мир!
+            div.col-md-5.desktop
+                img.featurette-image.img-fluid.mx-auto(src="img/planeIso.png" style="margin-top: 1em;")
+        +razdelitel
+        div.row.featurette
+            div.col-md-5
+                img.featurette-image.img-fluid.mx-auto(src="img/trainIso.png" style="margin-top: 1em;")
+            div.col-md-7
+                h2.featurette-heading.rocket.zero Из 2GIS
+                p.lead Отличная компания. Кассиры знают своё дело.
+        +razdelitel
+        div.row.featurette
+            div.col-md-5.mobile
+                img.featurette-image.img-fluid.mx-auto(src="img/busIso.png" style="margin-top: 1em;")
+            div.col-md-7
+                h2.featurette-heading.rocket.zero Из Яндекс.Карт
+                p.lead Агентство уже давно работает, честная и ответственная организация
+            div.col-md-5.desktop
+                img.featurette-image.img-fluid.mx-auto(src="img/busIso.png" style="margin-top: 1em;")
+        +razdelitel
