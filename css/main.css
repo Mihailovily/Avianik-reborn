@@ -63,6 +63,8 @@ p {
         margin-bottom: 0px;
         margin-top: 40px;
     }
+    .register{
+        width: 70% !important};
 }
 
 .nav-item {
@@ -140,3 +142,13 @@ i{
     padding-bottom: 0px !important;
 padding-top: 0.9rem !important;
 }
+
+.register{
+    border-radius: 10px;
+    margin-bottom: 2em;
+    width: 100%;
+
+}
+
+.or{font-size:1rem;
+    color: rgba(0, 0, 0, .7);}
