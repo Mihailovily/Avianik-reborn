@@ -20,14 +20,14 @@ p {
     font-family: 'Stapel';
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 769px) {
     .pc {
         visibility: hidden;
         display: none;
     }
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 769px) {
     .mobile {
         visibility: hidden;
         display: none;
@@ -44,7 +44,7 @@ p {
     }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 769px) {
     .desktop {
         visibility: hidden;
         display: none;
@@ -152,3 +152,27 @@ padding-top: 0.9rem !important;
 
 .or{font-size:1rem;
     color: rgba(0, 0, 0, .7);}
+
+@media screen and (max-width: 1500px) {
+    #phone{
+        visibility: hidden;
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 1260px) {
+    #blocktop{
+        visibility: hidden;
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 1200px) {
+
+    .oneline {
+        display: inline;
+    }
+
+}
