@@ -586,7 +586,7 @@ pre code {
 @media (min-width:576px) {
     .container,
     .container-sm {
-        max-width: 540px
+        max-width: 95%;
     }
 }
 
@@ -594,7 +594,7 @@ pre code {
     .container,
     .container-md,
     .container-sm {
-        max-width: 720px
+        max-width: 95%;
     }
 }
 

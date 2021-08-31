@@ -20,14 +20,14 @@ p {
     font-family: 'Stapel';
 }
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 920px) {
     .pc {
         visibility: hidden;
         display: none;
     }
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 920px) {
     .mobile {
         visibility: hidden;
         display: none;
@@ -42,9 +42,12 @@ p {
     .oneline img {
         margin-right: 1em;
     }
+    .featurette-heading {
+        margin-top: 7rem;
+    }
 }
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 920px) {
     .desktop {
         visibility: hidden;
         display: none;
